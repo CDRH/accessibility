@@ -2,7 +2,7 @@
 # Omeka S
 While much of the accessibility training will happen behind the scenes in the framework, users will still need to code individual items correctly. 
 
-In order to meet government standards, we are aiming for WCAG 2.2 AA.
+In order to meet government standards, we are aiming for WCAG 2.1 AA.
 ## Basics
 - [Core concepts](../Core-Concepts.md)
 - Headings are real headings
