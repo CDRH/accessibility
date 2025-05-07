@@ -1,5 +1,7 @@
 # Checklist: Semantic Structure and Navigation
 
+<span style="text-align: right;">[Next: Visual Design and Colors >](Checklists/2-Visual-Design-and-Colors.md)</span>
+
 ## Page Title
 
 ### Title for Every Page
