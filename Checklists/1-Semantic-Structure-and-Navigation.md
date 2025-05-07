@@ -2,35 +2,68 @@
 
 ## Page Title
 
+On a typical HTML page, what we think of as the "page title" should usually be set up in two places:
+1. In the `<head>` of the HTML document, inside `<title>Title Here</title>` tags
+2. In the `<body>` of the HTML document, as a Heading 1 (`<h1>Title Here</h1>`)
+
+The page `<title>` is what your web browser uses for the tab/window title. The <h1> is the title text on the page itself. These should correspond, but do not have to match exactly. Since it's particularly important to make the `<title>` concise, you might decide to handle a longer page title by using a shorter version of the page title for the `<title>`, and then using the full, long page title for the `<h1>`.
+
 ### Title for Every Page
 
 - The page `<title>` <mark>**MUST**</mark> be present and <mark>**MUST**</mark> contain text.
 - The page `<title>` <mark>**MUST**</mark> be updated when the web address changes.
+  - This is a concern when something like an AJAX call or a Javascript event changes the content of the page (for example, displaying search results or changing the state of a single-page application).
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Books | Willa Cather Archive</title>
+  </head>
+  <body>
+    <main>
+      <h1>Publications in Book Form</h1>
+    </main>
+```
 
 ### Meaningful Page Title
 
 - The page `<title>` <mark>**MUST**</mark> be accurate and informative.
 - If a page is the result of a user action or scripted change of context, the text of the `<title>` **SHOULD** describe the result or change of context to the user.
 - The `<title>` **SHOULD** be concise.
+  - If the <h1> for the page is very long, it is standard practice to choose a shorter version for the <title>.
 - The page `<title>` **SHOULD** be unique, if possible.
-- Unique information **SHOULD** come first in the
-`<title>`.
+  - This is important for helping users of all kinds 
+- Unique information **SHOULD** come first in the `<title>`.
+  - This also helps users quickly see what page they are on and distinguish between pages
 - The page `<title>` **SHOULD** match (or be very similar to) the top heading in the main content.
+  - If the <h1> for the page is very long, it is standard practice to choose a shorter version for the <title>.
 
 ## Language
 
 ### Primary Language of Page
 
 - The primary language of the page <mark>**MUST**</mark> be identified accurately on the `<html>` element.
+  - Every page must have a `lang` attribute inside the `<html>` tag.
 - The primary language of the page <mark>**MUST**</mark> be identified with a valid value on the `<html>` element.
+  - The HTML `lang` attribute uses [IOS 639-1 Language Codes](https://www.w3schools.com/tags/ref_language_codes.asp), which are two-letter abbreviations for languages. `lang="en"`, for example, tells the browser and/or screen reader that the primary language of the page is English.
+
+Good example:
+
+```
+<html lang="en">
+```
 
 ### Language of Parts within the Page
 
 - Inline language changes <mark>**MUST**</mark> be identified with a valid `lang` attribute.
+  - If parts of the page are in a different language than the primary language of the page, 
+
 
 ### Language Codes
 
 - The language code <mark>**MUST**</mark> be valid.
+  - Make sure to use one of the official two-letter abbreviations for the language code, not the full name of the language.
 
 ## Landmarks
 
