@@ -6,7 +6,7 @@ On a typical HTML page, what we think of as the "page title" should usually be s
 1. In the `<head>` of the HTML document, inside `<title>Title Here</title>` tags
 2. In the `<body>` of the HTML document, as a Heading 1 (`<h1>Title Here</h1>`)
 
-The page `<title>` is what your web browser uses for the tab/window title. The <h1> is the title text on the page itself. These should correspond, but do not have to match exactly. Since it's particularly important to make the `<title>` concise, you might decide to handle a longer page title by using a shorter version of the page title for the `<title>`, and then using the full, long page title for the `<h1>`.
+The page `<title>` is what your web browser uses for the tab/window title. The `<h1>` is the title text on the page itself. These should correspond, but do not have to match exactly. Since it's particularly important to make the `<title>` concise, you might decide to handle a longer page title by using a shorter version of the page title for the `<title>`, and then using the full, long page title for the `<h1>`.
 
 ### Title for Every Page
 
@@ -31,13 +31,13 @@ The page `<title>` is what your web browser uses for the tab/window title. The <
 - The page `<title>` <mark>**MUST**</mark> be accurate and informative.
 - If a page is the result of a user action or scripted change of context, the text of the `<title>` **SHOULD** describe the result or change of context to the user.
 - The `<title>` **SHOULD** be concise.
-  - If the <h1> for the page is very long, it is standard practice to choose a shorter version for the <title>.
+  - If the `<h1>` for the page is very long, it is standard practice to choose a shorter version for the `<title>`.
 - The page `<title>` **SHOULD** be unique, if possible.
   - This is important for helping users of all kinds 
 - Unique information **SHOULD** come first in the `<title>`.
   - This also helps users quickly see what page they are on and distinguish between pages
 - The page `<title>` **SHOULD** match (or be very similar to) the top heading in the main content.
-  - If the <h1> for the page is very long, it is standard practice to choose a shorter version for the <title>.
+  - If the `<h1>` for the page is very long, it is standard practice to choose a shorter version for the `<title>`.
 
 ## Language
 
