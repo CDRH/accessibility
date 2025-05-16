@@ -22,50 +22,48 @@ Inform users (generally by moving the focus or using ARIA live regions) when new
 
 #### Status Messages
 
-- Status messages <mark>**MUST**</mark> be programmatically determinable through role or properties such that they can be presented to the user by assistive technologies without receiving focus.
+- [ ] Status messages <mark>**MUST**</mark> be programmatically determinable through role or properties such that they can be presented to the user by assistive technologies without receiving focus.
 
 ### Time Limits
 
 #### Session Timeout
 
-- If there is a session time limit, users <mark>**MUST**</mark> be warned before the session ends and <mark>**MUST**</mark> be given time to save their data and/or extend the session.
-- Incomplete data **SHOULD** be saved after a session timeout.
-  - Users **SHOULD** be warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.
+- [ ] If there is a session time limit, users <mark>**MUST**</mark> be warned before the session ends and <mark>**MUST**</mark> be given time to save their data and/or extend the session.
+- [ ] Incomplete data **SHOULD** be saved after a session timeout.
+  - [ ] Users **SHOULD** be warned of the duration of any user inactivity that could cause data loss, unless the data is preserved for more than 20 hours when the user does not take any actions.
 
 #### Timers with Fixed Deadlines
 
-- Timers with fixed deadlines **SHOULD** provide users with a dynamic countdown feature, especially if the deadline is soon.
-- Countdown features **SHOULD** post ARIA live announcements at strategic intervals.
-- Countdown features <mark>**MUST NOT**</mark> post ARIA live so frequently that they become overwhelming to screen reader users.
-- If the timing is critical, a dynamic countdown MAY be included in the page `<title>`.
-- If the timing is critical, the dynamic countdown timers and alerts **SHOULD** be included across all relevant pages on the site.
+- [ ] Timers with fixed deadlines **SHOULD** provide users with a dynamic countdown feature, especially if the deadline is soon.
+- [ ] Countdown features **SHOULD** post ARIA live announcements at strategic intervals.
+- [ ] Countdown features <mark>**MUST NOT**</mark> post ARIA live so frequently that they become overwhelming to screen reader users.
+- [ ] If the timing is critical, a dynamic countdown MAY be included in the page `<title>`.
+- [ ] If the timing is critical, the dynamic countdown timers and alerts **SHOULD** be included across all relevant pages on the site.
 
 #### Auto Refresh/Reload
 
-- The page <mark>**MUST NOT**</mark> refresh or reload automatically.
-- A web page MAY notify the user when a refresh is recommended.
+- [ ] The page <mark>**MUST NOT**</mark> refresh or reload automatically.
+- [ ] A web page MAY notify the user when a refresh is recommended.
 
 ### AJAX
 
 #### Lazy Loading
 
-- Placeholders for AJAX content **SHOULD** inform
-    screen reader users that the content is loading.
-- "Lazy loading" AJAX content **SHOULD NOT** be
-    announced as it loads.
+- [ ] Placeholders for AJAX content **SHOULD** inform screen reader users that the content is loading.
+- [ ] "Lazy loading" AJAX content **SHOULD NOT** be announced as it loads.
 
 #### Infinite Scrolling
 
-- An "infinite scrolling" feature <mark>**MUST**</mark> allow users to reach all areas of the page with the keyboard.
-- An "infinite scrolling" feature MAY be activated only at the user's request.
+- [ ] An "infinite scrolling" feature <mark>**MUST**</mark> allow users to reach all areas of the page with the keyboard.
+- [ ] An "infinite scrolling" feature MAY be activated only at the user's request.
 
 #### Interstitial Views
 
-- Screen reader users <mark>**MUST**</mark> be informed when a webpage launches an interstitial view, a progress indicator, or enters into a paused or busy state.
+- [ ] Screen reader users <mark>**MUST**</mark> be informed when a webpage launches an interstitial view, a progress indicator, or enters into a paused or busy state.
 
 #### Single Page Applications
 
-- Screen reader users <mark>**MUST**</mark> be made aware when new "pages" are loaded in single-page applications.
-- The browser history <mark>**MUST**</mark> be updated when an AJAX event is the result of clicking on a link OR if the event is such that a user would expect to be able to use the "back" button after the event.
-- The page <mark>**MUST**</mark> respond appropriately when the user activates back or forward functionality in the browser.
+- [ ] Screen reader users <mark>**MUST**</mark> be made aware when new "pages" are loaded in single-page applications.
+- [ ] The browser history <mark>**MUST**</mark> be updated when an AJAX event is the result of clicking on a link OR if the event is such that a user would expect to be able to use the "back" button after the event.
+- [ ] The page <mark>**MUST**</mark> respond appropriately when the user activates back or forward functionality in the browser.
 
