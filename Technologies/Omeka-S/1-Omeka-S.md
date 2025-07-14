@@ -10,7 +10,7 @@ Refer to this checklist when creating Simple Pages or other content that uses th
 ### Page title and headings
 
 - Page title
- - [ ]`Title` should be concise and unique to the page content. 
+ - [ ] The page's `Title` should be concise and unique to the page content. 
    - Omeka S will use this for the page's `<title>` along with the site title; this is what shows up as the title of your browser tab or window.
 - Headings
   - [ ] The page must have one Heading 1 (`<h1>`) that serves as the page title. 
