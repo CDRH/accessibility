@@ -1,4 +1,4 @@
-# Bug Report Template for Accessibility Issues
+# Template for Accessibility Issues
 ## Steps
   - [ ] Create new issue in product repository
   - [ ] Assign `a11y` label (or `a11y improvements` label for ideas and suggestions for future improvements NOT REQUIRED by ADA Title II)
