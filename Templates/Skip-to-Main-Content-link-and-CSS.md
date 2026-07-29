@@ -57,7 +57,7 @@ The following CSS will keep the Skip to Main Content visually hidden (unless the
 Depending on the site's existing CSS, the default link color may not work well against the background. Feel free to include this CSS, as well, and customize the colors. Be sure they meet WCAG 2.1's minimum color contrast ratios; this link is meant to benefit keyboard-only users as well as screen reader users, so visual contrast matters.
 
 ```
-a.s:hover, a.sr-only-focusable:focus {
+a.sr-only-focusable:hover, a.sr-only-focusable:focus {
   background-color: white;
   color: #345c87;
 }
